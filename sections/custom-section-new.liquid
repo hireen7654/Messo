@@ -1,12 +1,12 @@
 <h1> == New Custom Section == </h1>
-{%- for block in section.blocks -%}
-    {%- case block.type -%}
-        {%- when 'title' -%}
+{% for block in section.blocks %}
+    {% case block.type %}
+        {% when 'title' %}
             <h2>Title</h2>            
-    {%- endcase -%}
+    {% endcase %}
     <h2>{{ section.settings.label }}</h2>
     <h2>{{ block.type }}</h2>
-{%- endfor -%}
+{% endfor %}
 
 {% schema %}
     {
