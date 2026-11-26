@@ -324,11 +324,17 @@
         "padding-block-start": 0,
         "padding-block-end": 0
       }
+    },
+    "custom_section_new_4azxkw": {
+      "type": "custom-section-new",
+      "name": "Custom Section New",
+      "settings": {}
     }
   },
   "order": [
     "hero_jVaWmY",
     "product_list_fa6P9H",
-    "section_VU7Pwy"
+    "section_VU7Pwy",
+    "custom_section_new_4azxkw"
   ]
 }
